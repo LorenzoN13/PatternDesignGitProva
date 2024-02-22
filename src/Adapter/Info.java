@@ -1,7 +1,6 @@
 package Adapter;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Info {
     private String nome;
