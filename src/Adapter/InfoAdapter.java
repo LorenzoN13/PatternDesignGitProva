@@ -21,7 +21,6 @@ public class InfoAdapter implements DataSource{
         LocalDate dataDiNascita = info.getDataDiNascita();
         Period differenza = Period.between(dataDiNascita, oggi);
         int eta = differenza.getYears();
-
         return eta;
     }
 }
